@@ -5,7 +5,7 @@ import './style.css'
 const App = () => {
  
  const tasks = [
-  {id: 1, text: 'Doctors appointment', day: 'Feb 5th at 2:30pm', done: false, note: "Don't take the dog with me"},
+  {id: 1, text: 'Doctors appointment', day: 'Feb 5th at 2:30pm', done: false, note: 'Take the dog with me'},
   {id: 2, text: 'Meeting at school', day: 'Feb 6th at 1:30pm', done: false, note: 'take document'},
   {id: 3, text: 'Food shopping', day: 'Feb 5th at 2:30pm', done: false, note: 'dont forget cc'},
   {id: 4, text: 'Meeting with the team', day: 'Feb 6th at 1:30pm', done: false, note: 'take the document'},
@@ -25,7 +25,7 @@ const App = () => {
    // setChangedTask(tasks.filter((task) => task.text.toLowerCase().includes(search.toLowerCase())))
   }
 
-
+  
   return (
     <>
       <h1>Task list</h1>
