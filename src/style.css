@@ -10,6 +10,7 @@ button {
     color: white;
     border-radius: 5px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 li {
@@ -18,8 +19,24 @@ li {
     list-style: none;
     margin-bottom: 20px;
     width: 50%;
+    border-radius: 8px;
+    
+}
+.completed {
+    background-color: rgba(128, 128, 128, 0.275);
 }
 button:hover {
     transform: scale(1.01);
     transition: all 0.3s ease-in-out;
+}
+
+input {
+    border: none;
+    box-shadow: 1px 1px 6px 0px grey;
+    padding: 10px 10px;
+    width: 231px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    margin-top: 4px;
+    outline: none;
 }
